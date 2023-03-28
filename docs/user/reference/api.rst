@@ -1,14 +1,14 @@
 API
 ===
 
-.. automodule:: python3_pip_skeleton
+.. automodule:: CrowconTempIOC
 
-    ``python3_pip_skeleton``
+    ``CrowconTempIOC``
     -----------------------------------
 
-This is the internal API reference for python3_pip_skeleton
+This is the internal API reference for CrowconTempIOC
 
-.. data:: python3_pip_skeleton.__version__
+.. data:: CrowconTempIOC.__version__
     :type: str
 
     Version number as calculated by https://github.com/pypa/setuptools_scm
