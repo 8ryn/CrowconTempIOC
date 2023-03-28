@@ -10,10 +10,13 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
 ]
-description = "One line description of your module"
-dependencies = [] # Add project dependencies here, e.g. ["click", "numpy"]
+description = "Reads three temperatures from a Crowcon device and output to an IOC."
+dependencies = [
+    "cothread",
+    "softioc",
+    "beautifulsoup4",
+] # Add project dependencies here, e.g. ["click", "numpy"]
 dynamic = ["version"]
 license.file = "LICENSE"
 readme = "README.rst"

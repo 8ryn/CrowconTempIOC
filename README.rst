@@ -3,14 +3,9 @@ CrowconTempIOC
 
 |code_ci| |docs_ci| |coverage| |pypi_version| |license|
 
-.. note::
-
-    This project contains template code only. For documentation on how to
-    adopt this skeleton project see
-    https://8ryn.github.io/CrowconTempIOC-cli
-
-This is where you should write a short paragraph that describes what your module does,
-how it does it, and why people should use it.
+Code to read three temperatures from a Crowcon device and output to an IOC.
+The temperatures read are Warm Base, Cold Chuck and Gripper BB.
+This code is a work in progress and does not currently function.
 
 ============== ==============================================================
 PyPI           ``pip install CrowconTempIOC``
@@ -19,17 +14,7 @@ Documentation  https://8ryn.github.io/CrowconTempIOC
 Releases       https://github.com/8ryn/CrowconTempIOC/releases
 ============== ==============================================================
 
-This is where you should put some images or code snippets that illustrate
-some relevant examples. If it is a library then you might put some
-introductory code here:
-
-.. code-block:: python
-
-    from CrowconTempIOC import __version__
-
-    print(f"Hello CrowconTempIOC {__version__}")
-
-Or if it is a commandline tool then you might put some example commands here::
+Should be able to be launched from the command line as::
 
     $ python -m CrowconTempIOC --version
 
