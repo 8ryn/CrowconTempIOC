@@ -5,7 +5,6 @@ CrowconTempIOC
 
 Code to read three temperatures from a Crowcon device and output to an IOC.
 The temperatures read are Warm Base, Cold Chuck and Gripper BB.
-This code is a work in progress and does not currently function.
 
 ============== ==============================================================
 PyPI           ``pip install CrowconTempIOC``
