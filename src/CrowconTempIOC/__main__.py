@@ -22,6 +22,8 @@ def main(args=None):
 
     # Load object to read from website
     tempReader = Temperatures(url)
+
+    # Load units for inputs, not refreshed while running
     units = tempReader.getUnits()
 
     # Device prefix
@@ -42,14 +44,12 @@ def main(args=None):
             warmbaseI.set(temps[0])
             coldchuckI.set(temps[1])
             gripperbbI.set(temps[2])
-            # TODO: Change to 30s
-            cothread.Sleep(10)
+            cothread.Sleep(30)
 
     cothread.Spawn(setTemps)
 
     cothread.WaitForQuit()
 
 
-# test with: python -m CrowconTempIOC
 if __name__ == "__main__":
     main()

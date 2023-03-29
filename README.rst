@@ -43,4 +43,3 @@ If not given a url option progam currently defaults to http://127.0.0.1:5000
     Anything below this line is used when viewing README.rst and will be replaced
     when included in index.rst
 
-See https://8ryn.github.io/CrowconTempIOC for more detailed documentation.
