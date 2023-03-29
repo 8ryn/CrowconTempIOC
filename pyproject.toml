@@ -16,6 +16,7 @@ dependencies = [
     "cothread",
     "softioc",
     "beautifulsoup4",
+    "requests",
 ] # Add project dependencies here, e.g. ["click", "numpy"]
 dynamic = ["version"]
 license.file = "LICENSE"
@@ -38,6 +39,7 @@ dev = [
     "sphinx-design",
     "tox-direct",
     "types-mock",
+    "types-requests",
 ]
 
 [project.scripts]
