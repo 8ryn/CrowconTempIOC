@@ -16,7 +16,9 @@ Releases       https://github.com/8ryn/CrowconTempIOC/releases
 
 Should be able to be launched from the command line as::
 
-    $ python -m CrowconTempIOC --version
+    $ python -m CrowconTempIOC --url url_to_load
+
+If not given a url option progam currently defaults to http://127.0.0.1:5000
 
 .. |code_ci| image:: https://github.com/8ryn/CrowconTempIOC/actions/workflows/code.yml/badge.svg?branch=main
     :target: https://github.com/8ryn/CrowconTempIOC/actions/workflows/code.yml
